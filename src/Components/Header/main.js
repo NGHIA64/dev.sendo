@@ -1,9 +1,7 @@
 import React from "react";
 class Header extends React.Component{
     render(){
-        return <>
-        123
-        </>
+        return  <div>Hello</div>
     }
 }
 export default Header
