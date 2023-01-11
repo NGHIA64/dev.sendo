@@ -7,7 +7,7 @@ class Header1 extends React.Component {
       <div className="bg-[#D5281F]">
         <ul className="flex flex-row mt-0 mr-6 space-x-2 text-sm font-medium ">
           {data.map((item, index) => (
-            <li>
+            <li key={index}>
               <a className="text-white p-2" key={index}>
                 {data[index].name}
               </a>
