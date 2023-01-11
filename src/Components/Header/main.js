@@ -1,6 +1,6 @@
 import React from "react";
 import Header1 from "./header1";
-import Header2 from "./header2/main";
+import Header2 from "./header2";
 class Header extends React.Component{
     render(){
         return (
