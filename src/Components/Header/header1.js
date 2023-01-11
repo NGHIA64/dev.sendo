@@ -4,11 +4,11 @@ class Header1 extends React.Component {
   render() {
     var data = header1()
     return (
-      <div className="">
-        <ul className="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+      <div className="bg-[#D5281F]">
+        <ul className="flex flex-row mt-0 mr-6 space-x-2 text-sm font-medium ">
           {data.map((item, index) => (
             <li>
-              <a className="text-white" key={index}>
+              <a className="text-white p-2" key={index}>
                 {data[index].name}
               </a>
             </li>
