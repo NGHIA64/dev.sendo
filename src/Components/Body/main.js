@@ -7,9 +7,14 @@ class Body extends React.Component {
     return (
       <div className="Body bg-[#F2F3F4]">
         <Body1 />
-        <div className="flex">
-          <Sidebar1 />
-          <Sidebar2 />
+        <div className="flex" style={{ width: "100%", overflow: "hidden" }}>
+         
+          <div style={{ width: 250 }}>
+            <Sidebar1 />
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
+            <Sidebar2 />
+          </div>
         </div>
       </div>
     );

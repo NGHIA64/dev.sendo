@@ -36,7 +36,7 @@ class Sidebar2 extends React.Component {
               })}
             </div>
           </div>
-          <div className="flex">
+          <div  style={{flexWrap:'wrap'}}>
             {sidebar2.sanPhamBinhThuong.map((item, index) => {
               return (
                 <>

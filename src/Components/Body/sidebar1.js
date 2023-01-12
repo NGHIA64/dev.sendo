@@ -4,14 +4,15 @@ class Sidebar1 extends React.Component {
   render() {
     return (
       <>
-        <div className="bg-white w-30%">
+        <div className="bg-white box-border flex-col	flex-wrap box-border items-stretch content-stretch width-full">
           {data_filter.map((item, index) => {
-            if (item.attribute_term == "GeneralTerm"){
-                return ''
-            } console.log(item);
+            if (item.attribute_term == "GeneralTerm") {
+              return "";
+            }
+            console.log(item);
             return (
               <>
-                <div>
+                <div >
                   <span className="text-[#0f1e29] font-[700] text-[14px]">
                     {item.attribute_name}
                   </span>

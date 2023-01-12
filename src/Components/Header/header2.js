@@ -23,7 +23,7 @@ class Header2 extends React.Component {
           </div>
           <button
             type="submit"
-            className="p-2 ml-2 text-sm font-medium text-white bg-white rounded-lg border hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="p-2 ml-2 text-sm font-medium text-white bg-white rounded-lg border hover:bg-gray-400 focus:outline-none dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <svg
               className="w-5 h-5"
