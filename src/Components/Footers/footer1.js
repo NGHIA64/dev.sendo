@@ -5,7 +5,7 @@ class Footer1 extends React.Component {
     console.log(footer1)
     return (
       <>
-        <div>
+        <div className="flex">
           {footer1.map( (item, index) => {
             return (
               <>
