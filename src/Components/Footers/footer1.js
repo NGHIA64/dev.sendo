@@ -5,14 +5,15 @@ class Footer1 extends React.Component {
     console.log(footer1)
     return (
       <>
-        <div className="flex">
-          {footer1.map( (item, index) => {
+        <div className="flex bg-[#FAFAFA]">
+          {footer1.map((item, index) => {
             return (
               <>
                 <a>
                   <img src={item.img} />
                   <div>
-                    <span>{item.title}</span><br></br>
+                    <span>{item.title}</span>
+                    <br></br>
                     <span>{item.note}</span>
                   </div>
                 </a>
