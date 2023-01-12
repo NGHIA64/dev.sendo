@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dev.sendo/static/css/main.aa3b3224.css",
+    "main.js": "/dev.sendo/static/js/main.c281d0d9.js",
+    "static/js/787.e308a622.chunk.js": "/dev.sendo/static/js/787.e308a622.chunk.js",
+    "index.html": "/dev.sendo/index.html",
+    "static/media/mega-menu.svg": "/dev.sendo/static/media/mega-menu.f4d52adc84ceb87b76675392f58ef623.svg",
+    "static/media/cart.svg": "/dev.sendo/static/media/cart.205c42b4c1d8adb22492c8938932311e.svg",
+    "main.aa3b3224.css.map": "/dev.sendo/static/css/main.aa3b3224.css.map",
+    "main.c281d0d9.js.map": "/dev.sendo/static/js/main.c281d0d9.js.map",
+    "787.e308a622.chunk.js.map": "/dev.sendo/static/js/787.e308a622.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa3b3224.css",
+    "static/js/main.c281d0d9.js"
+  ]
+}
